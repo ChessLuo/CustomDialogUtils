@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/iv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@mipmap/custom"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="新版发布"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/tv_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:singleLine="false"
+        android:layout_centerInParent="true"
+        android:text="尊敬的用户，感谢您对QQ浏览器的支持，特邀您优先体验7.5.0版本beta版限量公测包，快来体验吧！"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#ccc"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp"
+            android:gravity="center"
+            android:text="以后再说"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:background="@drawable/shape_bg"/>
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#ccc"/>
+
+        <TextView
+            android:id="@+id/tv_update"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp"
+            android:textSize="18dp"
+            android:text="立即更新"
+            android:textColor="#1586f2"
+            android:background="@drawable/shape_bg"/>
+
+    </LinearLayout>
+
+</LinearLayout>

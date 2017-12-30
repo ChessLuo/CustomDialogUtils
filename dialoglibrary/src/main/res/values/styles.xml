@@ -1,0 +1,14 @@
+<resources>
+    <!-- 定义对话框样式 -->
+    <style parent="android:style/Theme.Dialog" name="Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <!--控制dialog进出动画-->
+    <style name="styleAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popmenushow</item>
+        <item name="android:windowExitAnimation">@anim/popmenuhide</item>
+    </style>
+
+</resources>
