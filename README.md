@@ -5,9 +5,9 @@
  
 ## Demo
  
-![](D:\Androidstudio\asDemo\CustomDialog1\CustomDialog\dialog.gif)
+![](https://github.com/zsml2016/CustomDialogUtils/blob/master/dialog.gif?raw=true)
 
-[Download Apk]()
+[Download Apk](https://github.com/zsml2016/CustomDialogUtils/blob/master/demo-1.0.1.apk)
  
 ## Usage
 
@@ -151,6 +151,6 @@ CustomDialog dialog = new CustomDialog.Builder(this)
         dialog.show();
   ```
   
-[Code example]()
+[Code example](https://github.com/zsml2016/CustomDialogUtils/blob/master/demo/src/main/java/com/zsml/customdialog/MainActivity.java)
  
  
