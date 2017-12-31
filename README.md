@@ -1,4 +1,4 @@
-# Android Custom-Dialog
+﻿# Android Custom-Dialog
  
 这是一个自定义封装好的dialog工具类。这样可以减少不必要的重复代码，从而使代码更加灵活简洁方便易用，希望你们喜欢，觉得不错的话可以Star，方便下次回来查看，当然也希望你们能够多多指教，互相学习。
  
@@ -7,7 +7,7 @@
  
 ![](https://github.com/zsml2016/CustomDialogUtils/blob/master/dialog.gif?raw=true)
 
-[Download Apk](https://github.com/zsml2016/CustomDialogUtils/blob/master/demo-1.0.1.apk)
+[Download Apk](https://github.com/zsml2016/CustomDialogUtils/releases/download/v1.0.1/demo101.apk)
  
 ## Usage
 
